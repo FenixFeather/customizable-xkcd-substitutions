@@ -1,0 +1,24 @@
+{
+    "name": "ff_addon",
+    "title": "ff_addon",
+    "id": "jid1-j1ImZFvVRt99Aw",
+    "description": "a basic add-on",
+    "author": "Thomas Liu",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    "preferences": [{
+        "name": "replacements",
+        "title": "Replacements",
+        "description": "Put desired replacements here, in the format 'string_to_find':'string_to_replace', separated by commas.",
+        "type": "string",
+        "value": "'Witnesses': 'These dudes I know','witnesses': 'these dudes I know','WITNESSES': 'THESE DUDE I KNOW','Allegedly': 'Kinda probably','allegedly': 'kinda probably','ALLEGEDLY': 'KINDA PROBABLY','New Study': 'Tumblr Post','new Study': 'Tumblr Post','New study': 'Tumblr post','NEW STUDY': 'TUMBLR POST','new study': 'Tumblr post','Rebuild': 'Avenge','rebuild': 'avenge','REBUILD': 'AVENGE','Space': 'Spaaace','space': 'spaaace','SPACE': 'SPAACE','Google Glass': 'Virtual Boy','Google glass': 'Virtual boy','google Glass': 'virtual Boy','google glass': 'virtual boy','GOOGLE GLASS': 'VIRTUAL BOY','Smartphone': 'Pokedex','smartphone': 'pokedex','SMARTPHONE': 'POKEDEX','Electric': 'Atomic','electric': 'atomic','ELECTRIC': 'ATOMIC','Senator': 'Elf-lord','senator': 'elf-lord','SENATOR': 'ELF-LORD','Car': 'Cat','car': 'cat','CAT': 'CAT','Election': 'Eating contest','election': 'eating contest','ELECTION': 'EATING CONTEST','Congressional Leaders': 'River Spirits','Congressional leaders': 'River spirits','congressional Leaders': 'river Spirits','congressional leaders': 'river spirits','CONGRESSIONAL LEADERS': 'RIVER SPIRITS','Homeland Security': 'Homestar Runner','Homeland security': 'Homestar runner','homeland Security': 'homestar Runner','homeland security': 'homestar runner','HOMELAND SECURITY': 'HOMESTAR RUNNER','Could not be reached for comment': 'Is guilty and everyone knows it','could not be reached for comment': 'is guilty and everyone knows it','cloud':'butt', 'Cloud':'Butt', 'CLOUD':'BUTT', 'keyboard':'leopard','Keyboard':'Leopard','keyboards':'leopards','Keyboards':'Leopards', 'force':'horse', 'Force':'Horse'" 
+    },
+		    {
+			"description": "Allows you to temporarily disable.",
+			"type": "bool",
+			"name": "enable",
+			"value": true,
+			"title": "Enabled",
+			"hidden": true
+		    }]
+}

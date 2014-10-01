@@ -45,7 +45,7 @@ function handle_text(textNode)
     replacements_keys = Object.keys(replacements);
     
     for (ii = 0; ii < replacements_keys.length; ii++){
-	console.log(["\\b", replacements[replacements_keys[ii]], "\\b"].join(""));
+	// console.log(["\\b", replacements[replacements_keys[ii]], "\\b"].join(""));
 	v = v.replace(RegExp(["\\b", replacements_keys[ii], "\\b"].join(""),
 			     "g"), replacements[replacements_keys[ii]]);
 	textNode.nodeValue = v;
